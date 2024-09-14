@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 5vw;
+    top: 11px;
+    position: relative;
+    font-weight: 300;
+    font-size: 14px;
+    transition: all 1s;
+}
+
+
+.byebye:hover {
+    color: #096;
+    font-weight: 400;
+    text-decoration: underline;
+    text-decoration-color: #00754a;
+    text-decoration-thickness: 2px;
+}
+
+.star {
+    height: 40px;
+    width: 40px;
+    margin-left: 6vw;
+    position: relative;
+    top: -2vh;
+}
+
+input {
+    outline: none;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+    border: none;
+    width: 16vw;
+    text-align: right;
+    height: 8vh;
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: -4px;
+    left: 106px;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.logo {
+    height: 28px;
+    width: 28px;
+    position: relative;
+    left: 86px;
+}
+
+.first {
+    background-color: #1e3932;
+    height: 14vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    margin-left: -8px;
+    width: 98.6vw;
+    overflow-x: hidden;
+    color: white;
+    overflow-y: hidden;
+}
+
+.p {
+    position: relative;
+    left: 10vw;
+    top: 1vh;
+    color: #f9f9f9;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.know {
+    width: 96px;
+    height: 32px;
+    padding: 0;
+    font-size: 12px;
+    position: relative;
+    left: 78vw;
+    top: -7vh;
+    border-radius: 25px;
+    color: white;
+    border: 1px solid white;
+    background: transparent;
+}
+
+.second {
+    background-color: #006241;
+    height: 40vh;
+    width: 76vw;
+    border-radius: 5px;
+    position: relative;
+    left: 12vw;
+    top: 2vh;
+}
+
+.now {
+    font-weight: 400;
+    font-size: 14px;
+    position: relative;
+    left: 124px;
+    top: 12px;
+}
+
+.st {
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+    left: 121px;
+    top: 3px;
+}
+
+.in {
+    font-weight: 400;
+    font-size: 14px;
+    position: relative;
+    left: 120px;
+}
+
+.sg {
+    font-weight: 400;
+    font-size: 12px;
+    position: relative;
+    left: 124px;
+    top: 4vh;
+}
+
+.rs {
+    font-weight: 400;
+    font-size: 16px;
+    position: relative;
+    left: 122px;
+    top: 2vh;
+}
+
+.more {
+    color: #fff;
+    background-color: #00754a;
+    height: 49px;
+    width: 200px;
+    border-radius: 20px;
+    position: relative;
+    left: 59vw;
+    top: -40vh;
+    border: none;
+}
+
+.source {
+    height: 37vh;
+    left: -15vw;
+    top: -26vh;
+    position: relative;
+}
+
+.im {
+    height: 108px;
+    width: 108px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid #edebe9;
+    cursor: pointer;
+}
+
+.hand {
+    top: 6vh;
+    width: fit-content;
+    position: relative;
+    font-weight: 700;
+    font-size: 24px;
+    left: 11vw;
+    color: #1e3932;
+
+}
+
+.dive {
+    display: flex;
+    margin-left: 10vw;
+    gap: 6vw;
+    position: relative;
+    top: 6vh;
+}
+
+.divo {
+    top: 5vh;
+    position: relative;
+    margin-left: 10vw;
+    display: flex;
+    gap: 10vw;
+}
+
+.tt {
+    position: relative;
+    left: 10px;
+}
+
+.yy {
+    position: relative;
+    left: 5px;
+}
+
+.uu {
+    position: relative;
+    left: 20px;
+}
+
+.ii {
+    position: relative;
+}
+
+.oo {
+    position: relative;
+    left: -40px;
+}
+
+.pp {
+    position: relative;
+    left: -104px;
+}
+
+.fourth {
+    height: 45vh;
+    width: 100vw;
+    background-color: #edebe9;
+    /* border: 2px solid red; */
+    position: relative;
+    top: 2vh;
+    left: -1vw;
+
+}
+
+.aizen {
+    font-weight: 700;
+    font-size: 24px;
+    position: relative;
+    left: 10vw;
+    color: #1e3932;
+    width: fit-content;
+    top: 2vh;
+}
+
+.big {
+    box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+    height: 25vh;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    width: 25vw;
+    position: relative;
+    left: 10vw;
+    background-color: whitesmoke;
+}
+
+.l {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    object-fit: cover;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+
+.k {
+    height: 18px;
+    width: 18px;
+    position: relative;
+    left: 28px;
+    top: -44px;
+}
+
+.g {
+    position: relative;
+    left: 112px;
+    top: -62px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.h {
+    position: relative;
+    left: 20px;
+    top: -27px;
+}
+
+.n {
+    position: relative;
+    left: 218px;
+    width: 96px;
+    height: 32px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #a3a3a3ad;
+    color: #fff;
+    background-color: #00754a;
+    top: -74px;
+    border: none;
+    transition: .2s;
+}
+
+.n:hover {
+    background-color: #00442b;
+}
+
+.yewala {
+    left: 39.2vw;
+    top: -25vh;
+}
+
+.vowala {
+    left: 68vw;
+    top: -50vh;
+}
+
+.fifth {
+    height: 65vh;
+    width: 100vw;
+    background-color: #edebe9;
+    position: relative;
+    top: 5vh;
+    left: -6px;
+}
+
+.green {
+    height: 52vh;
+    width: 80%;
+    border: 2px aqua;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    position: relative;
+    left: 11vw;
+}
+
+.white {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: .2s;
+}
+
+.white:hover {
+    opacity: .6;
+    color: black;
+    background-color: black;
+}
+
+.rose {
+    color: #096;
+    font-size: 9px;
+    background: #e6edeb;
+    border-radius: 4px;
+    padding: 2px 4px;
+    gap: 2px;
+    letter-spacing: .06em;
+    width: fit-content;
+    position: relative;
+    top: -49vh;
+    left: 14vw;
+}
+
+.yellow {
+    font-size: 28px;
+    position: relative;
+    top: -32vh;
+    color: #fff;
+    left: 12.5vw;
+    font-weight: 600;
+}
+
+.yt {
+    position: relative;
+    top: -35vh;
+    color: #fff;
+    left: 12.5vw;
+    font-size: 14px;
+
+}
+
+.fb {
+    width: 200px;
+    height: 32px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    top: -32vh;
+    left: 12vw;
+    border: none;
+    font-weight: 400;
+}
+
+.last {
+    height: 152vh;
+    width: 100vw;
+    top: 10vh;
+    position: relative;
+    left: -8px;
+    background-color: #0e382c;
+}
+
+.yo {
+    position: relative;
+    top: 15vh;
+    left: 8vw;
+    width: 62px;
+    height: 62px;
+}
+
+.apple {
+    color: white;
+    display: flex;
+    gap: 10vw;
+    margin-left: 18vw;
+    position: relative;
+    top: 1vh;
+}
+
+.samsung {
+    font-size: 12px;
+    color: white;
+    margin-left: 18vw;
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lenevo {
+    font-size: 12px;
+    color: white;
+    gap: 4px;
+    display: flex;
+    margin-left: 34vw;
+    margin-top: -21vh;
+    flex-direction: column;
+}
+
+/* header{
+    position: fixed;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px);
+    background: white;
+    background: fixed;
+} */
+.redmi {
+    font-size: 12px;
+    color: white;
+    gap: 4px;
+    display: flex;
+    margin-left: 51vw;
+    margin-top: -38vh;
+    flex-direction: column;
+}
+
+.logos {
+    display: flex;
+    gap: 6px;
+    margin-left: 67.5vw;
+    margin-top: -82vh;
+    flex-direction: row
+}
+
+.moonlight {
+    margin-left: 55vw;
+}
+
+.light {
+    position: relative;
+    margin-left: 79vw;
+    top: -10vh;
+}
+
+.yagami {
+    position: relative;
+    margin-left: 79vw;
+    top: -10vh;
+}
+hr{
+    margin-top: 75vh;
+    border-bottom: .2px solid white;
+    width: 75vw;
+}
+.gp{
+    color: white;
+    position: relative;
+    margin-left: 12vw;
+    font-size: 12px;
+    margin-top: 2vh;
+}
+.ml{
+    color: white;
+    position: relative;
+    font-size: 10px;
+    margin-left: 66vw;
+    top: -5vh;
+}
+body{
+    overflow-x: hidden;
+}
